@@ -1,0 +1,66 @@
+/* Override some Bootstrap styles */
+body
+{
+        background-image: linear-gradient(to bottom, #0080dd, #7a9be5, #b0baed, #dbdbf6, #ffffff);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1000px;
+}
+.playerrow
+{
+      background-color: rgba(0, 0, 0, 0.4);
+      border-bottom-left-radius: 100%;
+      border-bottom-right-radius: 100%;
+      margin-left: 35px;
+      margin-right: 35px;
+}
+.breadcrumb
+{
+	margin-bottom: 0px;
+	color: #555;
+}
+a .breadcrumb {
+	color: #337ab7;
+	text-decoration: none;
+}
+.list-group-item.active a:link, .list-group-item.active a:active, .list-group-item.active a:visited, .list-group-item.active a:hover 
+{
+	color: white;
+}
+.panel-group .panel{
+	border-radius: 0px;
+	margin-bottom: -6px;
+}
+.panel:first-child {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.panel:last-child {
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+/* Override some JWPlayer styles */
+#playerCell
+{
+	/* Not needed if using the stock jwplayer skin */
+	padding-top: 32px;
+}
+.jwplayer
+{
+	width: 100% !important;
+}
+/* Music Library & Player styles */
+.container-fluid-noplayer
+{
+	margin-top: 110px;
+}
+.setup-title-bar
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.well hr {
+	border: 1px solid gray;
+}

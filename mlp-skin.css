@@ -1,0 +1,315 @@
+/* Music Library & Player Copyright (c) 2016 James Moats - jhmoats@willowlakestudio.com - www.thejamesmachine.com */
+/* Version 1.0.7 - Released 10/9/2016 */
+
+/* JWPlayer 7 MLP Skin */
+.jwplayer {
+	border-radius: 5px;
+	width: 100% !important;
+}
+
+.jw-icon {
+    font-family: 'jw-icons';
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+    background-color: transparent;
+    font-variant: normal;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Use this class to set a global background color for all elemnts. */
+.jw-skin-MLP .jw-background-color {
+  background: gray;
+}
+
+/* This is the class that houses all controls. Use this to adjust the appearance of the entire controlbar. */
+.jw-skin-MLP .jw-controlbar {
+  border-top: 0px;
+  height: 2.5em;
+}
+
+/* Vertically aligns the timeslider and icons in the center of the controlbar. */
+.jw-skin-MLP .jw-group {
+  vertical-align: middle;
+}
+
+/* Sets the style for the visual playlist. */
+
+.jw-skin-MLP .jw-playlist {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Aligns the visual playlist above its icon. */
+
+.jw-skin-MLP .jw-playlist-container {
+  left: -43%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Sets the style for the visual playlist items. */
+.jw-skin-MLP .jw-playlist-container .jw-option {
+  border-bottom: 1px solid #444;
+}
+
+/* Allows you to adjust the color of the playlist item when hovering and has a different active style.*/
+
+.jw-skin-MLP .jw-playlist-container .jw-option:hover,
+.jw-skin-MLP .jw-playlist-container .jw-option.jw-active-option {
+  background-color: black;
+}
+
+/* Changes the color of the label when hovering.*/
+
+.jw-skin-MLP .jw-playlist-container .jw-option:hover .jw-label {
+  color: #337ab7;
+}
+
+/* Aligns the playlist header icon with the items in the playlist. */
+.jw-skin-MLP .jw-playlist-container .jw-icon-playlist {
+  margin-left: 0;
+}
+
+/* Sets the color of the play icon of the currently playing playlist item.*/
+.jw-skin-MLP .jw-playlist-container .jw-label .jw-icon-play {
+  color: #337ab7;
+}
+
+/* Aligns the playlist play icon with the items in the playlist. */
+.jw-skin-MLP .jw-playlist-container .jw-label .jw-icon-play:before {
+    padding-left: 0
+}
+
+/* Sets the color of the playlist title */
+.jw-skin-MLP .jw-tooltip-title {
+    background-color: #000;
+    color: #fff
+}
+
+/* Style for playlist item, current time, qualities, and caption text.*/
+.jw-skin-MLP .jw-text {
+  color: #ffffff;
+}
+
+/* Color for all buttons when they are inactive. This is over-ridden with the 
+inactive configuration in the skin block.*/
+.jw-skin-MLP .jw-button-color {
+  color: #ffffff;
+}
+
+/* Color for all buttons for when they are hovered on. This is over-ridden with the 
+active configuration in the skin block.*/
+
+.jw-skin-MLP .jw-button-color:hover {
+  color: #337ab7;
+}
+
+/* Color for when HD/CD icons are toggled on. */
+.jw-skin-MLP .jw-toggle {
+  color: #337ab7;
+}
+
+/* Color for when HD/CD icons are toggled off. */
+.jw-skin-MLP .jw-toggle.jw-off {
+  color: #337ab7;
+}
+
+/* Sets spacing between controlbar icons and text */
+.jw-skin-MLP .jw-controlbar .jw-icon:before,
+.jw-skin-MLP .jw-text-elapsed,
+.jw-skin-MLP .jw-text-duration {
+    padding: 0 .7em;
+}
+
+/* Removes icon padding to align the playlist header icon with the items in the playlist. */
+.jw-skin-MLP .jw-controlbar .jw-icon-prev:before {
+    padding-right: .25em;
+}
+
+/* Removes icon padding to align the playlist header icon with the items in the playlist. */
+.jw-skin-MLP .jw-controlbar .jw-icon-playlist:before {
+    padding: 0 .45em;
+}
+
+.jw-skin-MLP .jw-controlbar .jw-icon-next:before {
+    padding-left: .25em;
+}
+
+/* Sets the style for the prev and next icons. */
+.jw-skin-MLP .jw-icon-prev,
+.jw-skin-MLP .jw-icon-next {
+    font-size: 1em;
+}
+
+/* Adds the spacer style to between the play icon and the previous icon. */
+.jw-skin-MLP .jw-icon-prev:before {
+  border-left: 0px;
+}
+
+/* Adds the spacer style to between the next item and current time.  */
+.jw-skin-MLP .jw-icon-next:before {
+  border-right: 0px;
+}
+
+/* Color of the display icon */
+.jw-skin-MLP .jw-icon-display {
+  color: #fff;
+}
+
+/* Centers the display icon in it's container */
+.jw-skin-MLP .jw-icon-display:before {
+  padding-left: 0;
+}
+
+/* Turns the display icon container into a circle. */
+.jw-skin-MLP .jw-display-icon-container {
+    border-radius: 50%;
+    border: 1px solid #333;
+}
+
+/* Styles the timeslider rail */
+.jw-skin-MLP .jw-rail {
+  background-color: #FFF;
+  box-shadow: none;
+}
+
+/* Sets the color for the buffer of the timeslider rail. */
+.jw-skin-MLP .jw-buffer {
+    background-color: white;
+}
+
+/* Sets the style for the elapsed progress. */
+.jw-skin-MLP .jw-progress {
+    background: #337ab7;
+}
+
+/* Sets the width of the knob's container */
+.jw-skin-MLP .jw-knob {
+    width: 1em;
+    height: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #333;
+    border-radius: 1em;
+}
+
+/* Sets the height for the horizontal slider container. */
+.jw-skin-MLP .jw-slider-horizontal .jw-slider-container {
+    height: .95em;
+}
+
+/* Sets the height for the horizontal slider elements. */
+.jw-skin-MLP .jw-slider-horizontal .jw-rail,
+.jw-skin-MLP .jw-slider-horizontal .jw-buffer,
+.jw-skin-MLP .jw-slider-horizontal .jw-progress {
+    height: .4em;
+    border-radius: 0
+}
+
+/* Centers the knob vertically. */
+.jw-skin-MLP .jw-slider-horizontal .jw-knob {
+    top: -0.3em;
+}
+
+/* Centers the timeslider cuepoints vertically. */
+.jw-skin-MLP .jw-slider-horizontal .jw-cue {
+    top: -0.04999999999999999em;
+    width: .3em;
+    height: .3em;
+    background-color: #fff;
+    border-radius: 50%
+}
+
+/* Sets the width for the vertical slider elements. */
+.jw-skin-MLP .jw-slider-vertical .jw-rail,
+.jw-skin-MLP .jw-slider-vertical .jw-buffer,
+.jw-skin-MLP .jw-slider-vertical .jw-progress {
+    width: .2em
+}
+
+/* Sets the position of the volume slider container. */
+.jw-skin-MLP .jw-volume-tip {
+    width: 100%;
+    left: -45%;
+    padding-bottom: .7em
+}
+
+/* Sets the color of the duration text in the controlbar. */
+.jw-skin-MLP .jw-text-duration {
+    color: #FFF;
+}
+
+/* Adds a left border as a spacer between all controlbar icons. */
+.jw-skin-MLP .jw-controlbar-right-group .jw-icon-tooltip:before,
+.jw-skin-MLP .jw-controlbar-right-group .jw-icon-inline:before {
+    border-left: 0px;
+}
+
+/* Removes the border from the first icon after the time duration text. */
+.jw-skin-MLP .jw-controlbar-right-group .jw-icon-inline:first-child:before {
+    border: 0px;
+}
+
+/* This styles the dock icons into a circle. */
+.jw-skin-MLP .jw-dock .jw-dock-button {
+    border-radius: 50%;
+    border: 1px solid #333
+}
+
+/* This styles tooltip for dock text background. */
+.jw-skin-MLP .jw-dock .jw-overlay {
+    border-radius: 2.5em
+}
+
+/*This sets the font color and background color for the active item in HD and CC menus. */
+.jw-skin-MLP .jw-icon-tooltip .jw-active-option {
+    background-color: #ff0046;
+    color: #fff
+}
+
+/* Sets a min width for the volume container so that when it changes between mute and volume, the controlbar does not shift. */
+.jw-skin-MLP .jw-icon-volume {
+    min-width: 2.6em
+}
+
+/* Sets the style for the time tooltip, menu, volume. */
+.jw-skin-MLP .jw-time-tip,
+.jw-skin-MLP .jw-menu,
+.jw-skin-MLP .jw-volume-tip,
+.jw-skin-MLP .jw-skip {
+    border: 1px solid #333
+}
+
+/* Sets the position for the time tooltip. */
+.jw-skin-MLP .jw-time-tip {
+    padding: .2em;
+    bottom: 1.3em
+}
+
+/* Sets the position for the vertical volume slider. */
+.jw-skin-MLP .jw-menu,
+.jw-skin-MLP .jw-volume-tip {
+    bottom: .24em
+}
+
+/* Sets the shape of the skip icon. */
+.jw-skin-MLP .jw-skip {
+    padding: .4em;
+    border-radius: 1.75em
+}
+
+/* Sets the style for the skip text. */
+.jw-skin-MLP .jw-skip .jw-text,
+.jw-skin-MLP .jw-skip .jw-icon-inline {
+    color: #fff;
+    line-height: 1.75em
+}
+.jw-skin-MLP .jw-skip.jw-skippable:hover .jw-text,
+.jw-skin-MLP .jw-skip.jw-skippable:hover .jw-icon-inline {
+    color: #ff0046
+}
